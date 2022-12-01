@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# List of utils helpful for doing leetcode and advent of code.
+# Some of these look trivial, but it's because I always forget how to do things in the python way.
+
 # Files
 def read_file(file):
     f = open(file, "r")
@@ -26,3 +29,10 @@ def convert_string_array_to_int_array(str_array):
 # Math
 def round_num(decimal, places):
     return round(decimal, places)
+
+# Strings
+def strip(str):
+    str.strip()
+
+def join(arr):
+    "".join(arr)
